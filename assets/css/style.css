@@ -67,10 +67,6 @@ fieldset {
     padding: 0
 }
 
-.section-padding {
-    padding: 70px 0px;
-}
-
 .section-title {
     margin-bottom: 30px;
 }
@@ -651,6 +647,7 @@ a .fa {
     background: #000;
     padding: 40px 0px;
 }
+
 
 .single-footer h6 {
     font-size: 16px;
