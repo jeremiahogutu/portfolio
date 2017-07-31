@@ -139,13 +139,13 @@
 }
 
 @media screen and (min-width: 960px) {
-    .project1,.project2,.project3,.project4,.project5, .project6, .project7, .project8{
+    .project{
         width: 25%;
         min-height: 300px;
         padding-top: 60px;
     }
 
-    .socialIcon1,.socialIcon2,.socialIcon3,.socialIcon4 {
+    .socialIcon {
     background-color: grey;
     width: 25%;
     text-align: center;

@@ -77,9 +77,9 @@ body.loaded #preloader{opacity:0;visibility:hidden;}
 .box{width:100%;background-color:#1b1725;padding-bottom:20px;}
 .featured{font-size:1.2em;background-color:#1b1725;color:white;}
 .featured-works{display:flex;flex-wrap:wrap;}
-.project1, .project2, .project3, .project4,.project5, .project6, .project7, .project8{text-align:center;background-color:#1b1725;color:white;}
-.project1, .project2, .project3, .project4,.project5, .project6, .project7, .project8,
-.socialIcon1,.socialIcon2,.socialIcon3,.socialIcon4{width:50%;}
+.project {text-align:center;background-color:#1b1725;color:white;}
+.project,
+.socialIcon{width:50%;}
 .centerContent{display:flex;justify-content:center;}
 .featured-works p{text-align:center;padding:10px;}
 a .fa{color:#000;}
@@ -90,8 +90,8 @@ a .fa{color:#000;}
 .social-info a.fa{color:black;}
 .socialArea{background-color:grey;min-height:10px;}
 .emailContact{color:black;font-size:2em;padding-top:1em;}
-.socialIcon1 a p .git{color:black;}
-.socialIcon1,.socialIcon2,.socialIcon3,.socialIcon4{background-color:grey;color:black;text-align:center;}
+.socialIcon a p .git{color:black;}
+.socialIcon {background-color:grey;color:black;text-align:center;}
 .contact-area{background-color:#1b1725;}
 .contact-details-list p{margin-bottom:30px;color:#333;}
 .single-contact{margin-bottom:22px;}
