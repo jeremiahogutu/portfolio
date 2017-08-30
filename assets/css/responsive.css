@@ -60,6 +60,16 @@
         font-size: 24px
     }
 
+    .featured-works h4 {
+        margin: 10px 0;
+        font-size: 1em;
+    }
+
+    .featured-works h2 {
+        margin: 0;
+        font-size: 1.4em;
+    }
+
     h3 {
         font-size: 18px;
     }
