@@ -26,6 +26,10 @@
     }
 }
 @media only screen and (max-width: 767px) {
+    .social {
+        padding-top: 1em;
+    }
+
     .navbar-toggle .icon-bar {
         background: #fff
     }
@@ -70,21 +74,17 @@
         font-size: 1.4em;
     }
 
-    h3 {
-        font-size: 18px;
-    }
-
     .about-text p {
         font-size: 1.3em
     }
     .section-title h2
     {
         font-size: 22px;
-        margin-bottom: 30px
+
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 1.265em;
         margin-bottom: 30px;
     }
     .scrollup {
@@ -130,8 +130,8 @@
 @media screen and (min-width: 960px) {
     .project {
         width: 25%;
-        min-height: 300px;
-        padding-top: 60px
+        /*min-height: 300px;*/
+        /*padding-top: 40px;*/
     }
     .socialIcon {
         background-color: #1b1725;
@@ -139,8 +139,11 @@
         text-align: center
     }
     .social {
-        padding-bottom: 6em
+        padding: 1.5em;
     }
+    /*.featured {*/
+        /*padding: 1.5em;*/
+    /*}*/
     .about-text p {
         font-size: 1.3em
     }
