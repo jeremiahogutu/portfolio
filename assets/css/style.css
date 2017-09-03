@@ -428,7 +428,8 @@ body.loaded #preloader {
 .social,
 .social-info.box,
 .socialArea,
-.socialIcon {
+.socialIcon,
+.about-me {
     background-color: #1b1725;
 }
 .social,

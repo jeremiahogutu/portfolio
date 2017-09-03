@@ -26,9 +26,7 @@
     }
 }
 @media only screen and (max-width: 767px) {
-    .social {
-        padding-top: 1em;
-    }
+
 
     .navbar-toggle .icon-bar {
         background: #fff
@@ -55,7 +53,7 @@
         color: #ccc
     }
     .welcome-image-area {
-        padding-top: 120px
+        padding-top: 120px;
     }
     .about-text h2,
     .welcome-image-area h2,
@@ -126,24 +124,31 @@
     .about-text ul li {
         width: 100%
     }
+    .social {
+        padding-top: 1em;
+    }
+    .socialIcon {
+        padding-bottom: 2em;
+    }
 }
 @media screen and (min-width: 960px) {
     .project {
         width: 25%;
         /*min-height: 300px;*/
-        /*padding-top: 40px;*/
+        padding-bottom: 4em;
     }
     .socialIcon {
         background-color: #1b1725;
         width: 25%;
-        text-align: center
+        text-align: center;
     }
-    .social {
+
+    .about-me{
         padding: 1.5em;
     }
-    /*.featured {*/
-        /*padding: 1.5em;*/
-    /*}*/
+    .social, .socialIcon {
+        padding-bottom: 8em;
+    }
     .about-text p {
         font-size: 1.3em
     }
